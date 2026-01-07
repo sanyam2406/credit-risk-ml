@@ -38,11 +38,15 @@ Target variable:
 
 ## Results
 
-The Logistic Regression model achieved an overall accuracy of 96% on the test dataset.
+The Logistic Regression model achieved an overall accuracy of **96%** on the test dataset.
 
-For loan default prediction (positive class = default):
-- Precision: 97%
-- Recall: 97%
+- **Accuracy:** 96%
+- **Precision (weighted):** 96%
+- **Recall (weighted):** 96%
+- **F1-score (weighted):** 96%
+
+The model performs consistently across both classes, indicating good generalization.
+
 
 This indicates that the model is highly effective at identifying defaulters while maintaining a low false positive rate.
 
